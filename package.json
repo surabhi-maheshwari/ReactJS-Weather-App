@@ -1,0 +1,23 @@
+{
+  "name": "ecommerce-site-template-master",
+  "version": "1.0.0",
+  "description": "A beautiful e-commerce template with flat design.",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass src/ -o src/",
+    "build-js": "react-scripts build",
+    "build": "npm run build-css && npm run build-js",
+    "start-css": "npm run build-css && npm run build-css -- --watch --recursive",
+    "start-js": "react-scripts start",
+    "start": "react-scripts-start",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "author": "",
+  "license": "ISC",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
